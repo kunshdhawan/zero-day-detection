@@ -1,0 +1,4 @@
+Flow_Duration,Fwd_Packet_Length_Max,Fwd_Packet_Length_Min,Bwd_Packet_Length_Max,Bwd_Packet_Length_Min,Flow_Bytes_s,Flow_Packets_s,Flow_IAT_Mean,Flow_IAT_Std,Bwd_IAT_Mean,Bwd_IAT_Std,Fwd_IAT_Mean,Fwd_IAT_Std,Subflow_Fwd_Packets,Subflow_Fwd_Bytes,Subflow_Bwd_Packets,Subflow_Bwd_Bytes,Init_Win_bytes_forward,Init_Win_bytes_backward,ACK_Flag_Count,PSH_Flag_Count,URG_Flag_Count,Down_Up_Ratio,Avg_Fwd_Segment_Size,Avg_Bwd_Segment_Size,Fwd_Header_Length,Bwd_Header_Length,Fwd_Packets_s,Bwd_Packets_s,Min_Packet_Length,Max_Packet_Length,Packet_Length_Mean,Packet_Length_Std,Packet_Length_Variance
+12345,200,50,180,40,12000,55,1000,200,800,150,900,180,15,3000,12,2500,255,255,1,0,0,1,120,100,30,30,12,10,40,200,120,50,2500
+54321,180,40,160,30,10000,48,1100,210,900,160,850,170,14,2800,10,2300,255,240,1,0,0,1,110,90,32,29,11,9,35,190,115,48,2200
+67890,210,60,190,45,14000,60,950,190,780,145,880,175,16,3100,13,2600,250,230,1,0,0,1,130,105,31,31,13,11,42,205,125,52,2600
