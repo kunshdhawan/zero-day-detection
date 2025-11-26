@@ -22,33 +22,6 @@ indicating **zero-day intrusions, anomalies, and unseen attacks**.
 - Fully automated preprocessing & feature alignment
 
 
-## Project Structure
-zero-day-detection/
-│
-├── app.py # Gradio UI for predictions
-├── evaluate.py # Advanced evaluation and metrics
-├── train.py # Model training script
-├── preprocess.py # Data cleaning & feature alignment
-│
-├── data/
-│ ├── raw/ # Raw CICIDS CSVs
-│ └── processed/
-│   └── combined.csv # Cleaned megafile
-│
-├── models/
-│ ├── isolation_forest.pkl # Trained model
-│ └── feature_columns.json # EXACT 103 features model uses
-│
-├── results/
-│ ├── confusion_matrix.png
-│ ├── roc_curve.png
-│ ├── precision_recall_curve.png
-│ ├── anomaly_score_hist.png
-│ └── evaluation_predictions.csv
-│
-└── README.md
-
-
 ## Concept
 
 Unlike supervised classifiers that need labeled attack data,  
@@ -77,3 +50,9 @@ git clone <repo-url>
 cd zero-day-detection
 
 pip install -r requirements.txt
+```
+
+## Project Structure
+<img width="500" height="400" alt="text-to-image" src="https://github.com/user-attachments/assets/4ad7385c-387e-462f-ad34-1a0340484c14" />
+
+
